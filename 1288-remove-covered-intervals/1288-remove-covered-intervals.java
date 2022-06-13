@@ -8,7 +8,6 @@ class Solution {
                 return a[0] - b[0];
             }
         });
-        
         int r = intervals.length;
         int[] i = new int[] {-1, -1};
         for(int[] interval : intervals)
