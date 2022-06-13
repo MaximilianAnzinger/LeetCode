@@ -5,11 +5,13 @@ class Solution {
             s += nums[i];
             r += i * nums[i];
         }
+        
         c = r;
         for(int i = nums.length - 1; 0 < i; i--) {
             c += s - nums[i] * nums.length;
             r = Math.max(r, c);
         }
+        
         return r;
     }
 }
