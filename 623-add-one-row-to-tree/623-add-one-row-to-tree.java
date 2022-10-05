@@ -25,7 +25,7 @@ class Solution {
             return root;
         }
         root.left = addOneRow(root.left, val, depth - 1);
-        root.right = addOneRow(root.right, val, depth -1);
+        root.right = addOneRow(root.right, val, depth - 1);
         return root;
     }
 }
